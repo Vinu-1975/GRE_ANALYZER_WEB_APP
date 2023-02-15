@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Unbounded', 'cursive';
+}
+::selection{
+    user-select: red;
+    background-color: red;
+    color:blue;
+}
+.intro-container{
+    background: url('./bg.png'),-webkit-linear-gradient(bottom,white,blueviolet );/*#d43f8d*/
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.intro-container header{
+    font-size: 20px;
+    font-weight:l;
+    color:rgb(74, 55, 109);
+    margin-top: -40px;
+}
+.intro-container header img {
+    height:200px;
+    width:220px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 1px rgb(0, 0, 0);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: all 5s ease;
+}
+.intro-container header img:hover {
+    transform: scale(1.1,1.1);
+    transform: rotate(360deg);
+}
+.intro-container header p{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.intro-container .login-link{
+    display: block;
+    padding:10px 40px;
+    border-radius: 2px;
+    margin-top:10px;
+    text-decoration: none;
+    background:rgb(38, 121, 148);
+    color:white;
+    transition: all 0.5s ease;
+}
+.intro-container .login-link:hover {
+    transform:scale(1.1,1.1)
+}
+.intro-container .admin-link{
+    position:fixed;
+    bottom:50px;
+    right:44.25%;
+    text-decoration: none;
+    transition: transform 0.5s ease;
+}
+.intro-container .admin-link:hover {
+    text-decoration: underline;
+    transform: scale(1.1,1.1);
+}
+.intro-container .prev-data{
+    position: fixed;
+    bottom: 40px;
+    right: 0px;
+    text-decoration: none;
+    display: block;
+    background-color: blueviolet;
+    padding: 10px 40px 10px 60px;
+    margin-right:-290px;
+    transition:all 0.7s ease;
+    color: white;
+}
+.intro-container .prev-data:hover {
+    margin-right: 0px; 
+}

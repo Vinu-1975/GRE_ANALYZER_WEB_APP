@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  /* background: url("bg.png"), -webkit-linear-gradient(bottom, #0250c5, blueviolet); */
+}
+
+::selection {
+  color: #fff;
+  background: blueviolet;
+}
+
+.wrapper {
+  width: 100vw !important;
+  height: 100vh !important;
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+}
+.wrapper .image{
+  height:50vh !important;
+  width:70vw !important;
+  overflow: hidden !important;
+  background:url("./bg2.jpg");
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
+.container {
+  width: 330px  !important;
+  background: #fff  !important;
+  text-align: center  !important;
+  border-radius: 5px  !important;
+  padding: 5px  !important;
+  height: 70vh  !important;
+  margin:0 30px  !important;
+}
+
+.container header {
+  font-size: 25px !important;
+  font-weight: 600 !important;
+  margin: 10px 0 0 0 !important;
+
+}
+.container header a{
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin: 10px 0 0 0 !important;
+  text-decoration: none !important;
+}
+.container header a:hover {
+  text-decoration: underline !important;
+}
+.container .form-outer {
+  width: 100% !important;
+  overflow: hidden !important;
+}
+
+.container .form-outer form {
+  display: flex !important;
+  width: 400% !important;
+}
+
+.form-outer form .page {
+  width: 25% !important;
+  transition: margin-left 0.3s ease-in-out !important;
+}
+
+.form-outer form .page .title {
+  text-align: left !important;
+  margin-left: 20px !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+.form-outer form .page .field {
+  width: 330px !important;
+  height: 35px !important;
+  margin: 35px 0 !important;
+  display: flex !important;
+  position: relative !important;
+}
+
+form .page .field .label {
+  position: absolute !important;
+  top: -30px !important;
+  left: 30px !important;
+  font-weight: 500 !important;
+}
+
+form .page .field input {
+  height: 100% !important;
+  width: 80% !important;
+  border: 1px solid lightgrey !important;
+  margin: 0 auto !important;
+  border-radius: 5px !important;
+  padding-left: 15px !important;
+  font-size: 18px !important;
+}
+
+form .page .field select {
+  width: 80% !important;
+  margin: 0 auto !important;
+  padding-left: 10px !important;
+  font-size: 17px !important;
+  font-weight: 500 !important;
+}
+
+form .page .field button {
+  width: 80% !important;
+  margin: 0 auto !important;
+  height: calc(100% + 5px) !important;
+  border: none !important;
+  background: blueviolet !important;
+  margin-top: -20px !important;
+  border-radius: 5px !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  transition: 0.5s ease !important;
+}
+
+form .page .field button:hover {
+  background: white !important;
+  color:blueviolet !important;
+}
+
+form .page .btns button {
+  margin-top: -20px !important;
+}
+
+form .page .btns button.prev {
+  margin-right: 3p !important;
+  font-size: 17px !important;
+}
+
+form .page .btns button.next {
+  margin-left: 3px !important;
+}
+
+.container .progress-bar {
+  display: flex !important;
+  margin: 15px 0 !important;
+  user-select: none !important;
+}
+
+.form-outer .container .progress-bar .step {
+  text-align: center !important;
+  width: 100% !important;
+  position: relative !important;
+}
+
+.container .progress-bar .step p {
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  color: #000 !important;
+  margin-bottom: 8px !important;
+}
+
+.progress-bar .step .bullet {
+  height: 25px !important;
+  width: 25px !important;
+  border: 2px solid #000 !important;
+  display: inline-block !important;
+  border-radius: 50% !important;
+  position: relative !important;
+  transition: 0.2s !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 25px !important;
+}
+
+.progress-bar .step .bullet.active {
+  border-color: blueviolet !important;
+  background: blueviolet !important;
+}
+
+.progress-bar .step .bullet span {
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+.progress-bar .step .bullet.active span {
+  display: none !important;
+}
+
+.progress-bar .step .bullet:before,
+.progress-bar .step .bullet:after {
+  position: absolute !important;
+  content: '' !important;
+  bottom: 11px !important;
+  right: -46px !important;
+  height: 3px !important;
+  width: 34px !important;
+  background: #262626 !important;
+}
+
+.progress-bar .step .bullet.active:after {
+  background: blueviolet !important;
+  transform: scaleX(0) !important;
+  transform-origin: left !important;
+  animation: animate 0.3s linear forwards !important;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1) !important;
+  }
+}
+
+.progress-bar .step:last-child .bullet:before,
+.progress-bar .step:last-child .bullet:after {
+  display: none !important;
+}
+
+.progress-bar .step p.active {
+  color: blueviolet !important;
+  transition: 0.2s linear !important;
+}
+
+.progress-bar .step .check {
+  position: absolute !important;
+  left: 50% !important;
+  top: 70% !important;
+  font-size: 15px !important;
+  transform: translate(-50%, -50%) !important;
+  display: none !important;
+}
+
+.progress-bar .step .check.active {
+  display: block !important;
+  color: #fff !important;
+}
+
+.login-wrapper {
+  height: 70vh !important;
+  width: 333px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+  margin:0 30px !important;
+}
+
+.login-wrapper header {
+  letter-spacing: 2px !important;
+  margin-top: 20px !important;
+}
+.login-wrapper header a{
+  text-decoration: none !important;
+  display: block !important;
+  margin-left:8px !important;
+  margin-top: 10px !important;
+}
+.login-wrapper header a:hover {
+  text-decoration: underline !important;
+}
+
+.login-wrapper .inputs {
+  height: 70% !important;
+  width:90% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.login-wrapper .inputs form {
+  height: 100% !important;
+  width:100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: left !important;
+}
+.login-wrapper .inputs form input{
+  width:80% !important;
+  height:30px !important;
+  padding:5px 10px 5px 10px !important;
+  border-radius: 8px !important;
+  border: 0.1px solid black !important;
+}
+.login-wrapper .inputs form p{
+  margin-left:-160px !important;
+  letter-spacing: 2px !important;
+  margin-bottom: 5px !important;
+}
+.login-wrapper .inputs form input[type="submit"]{
+  margin-top:30px !important;
+  outline: none !important;
+  border: none !important;
+  letter-spacing: 2px !important;
+  font-size: larger !important;
+  padding-bottom: 30px !important;
+  background-color: blueviolet !important;
+  color:white !important;
+  border-radius: 3px !important;
+  transition: all 0.5s ease !important;
+}
+.login-wrapper .inputs form input[type="submit"]:hover {
+  transform: scale(1.03,1.03) !important;
+}
+.input-error{
+  font-size: 15px !important;
+  color:red !important;
+}

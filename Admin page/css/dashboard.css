@@ -1,0 +1,26 @@
+/*          Admin Dashboard         */
+.home-content .dashboard-content {
+    margin: 0 auto;
+    width: 93%;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height:100vh;
+}
+
+.home-content .dashboard-content .nousers {
+    width: 50%;
+    border-radius: 30px;
+    min-height:7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 1px black;
+}
+.home-content .dashboard-content .nousers .u-data{
+    font-size: 50px;
+}

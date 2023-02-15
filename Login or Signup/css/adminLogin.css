@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    scrollbar-color:red ;
+}
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    height:100vh;
+    width:100vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(138, 43, 226,0.7); */
+    overflow: hidden;
+}
+.wrapper{
+    height:500px;
+    width:500px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px 60px rgb(138, 43, 226);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+}
+.wrapper header{
+    text-align: center;
+    padding:10px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 10px 1px rgb(138, 43, 226,0.3);
+}
+.wrapper .inputs{
+    height:50%;
+    width:50%;
+}
+.wrapper .inputs form{
+    width: 100%;
+    height: 100%;
+}
+.wrapper .inputs form input[type="text"],
+.wrapper .inputs form input[type="password"]{
+    width:90%;
+    height: 50px;
+    margin-top:20px;
+    padding:0 10px;
+    caret-color: red;
+    border: none;
+    border-radius: 2px;
+    background: rgb(0, 0, 0,0.1);
+}
+.wrapper .inputs form input[type="submit"]{
+    width:90%;
+    display: block;
+    margin: 40px auto;
+    height:20%;
+    border: none;
+    background-color: white;
+    color:blueviolet;
+    transition: all 0.5s ease;
+    border-radius: 4px;
+    font-size:large ;
+    box-shadow: 0px 0px 10px 1px blueviolet;
+    letter-spacing: 1px;
+
+}
+.wrapper .inputs form input[type="submit"]:hover {
+    transform: scale(1.02,1.02);
+}
