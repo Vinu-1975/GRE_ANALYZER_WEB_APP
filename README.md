@@ -8,21 +8,27 @@ The **GRE Score Analyzer** offers a unique capability to estimate a user's GRE s
 
 ## 🖼️ Website Previews
 
+Our platform boasts separate portals for both users and administrators, streamlining the user experience and ensuring efficient management. Moreover, one of the standout features is the capability to glean insights about how many individuals qualified for GRE from various cities.
+
 Here's a sneak peek into our project:
 
-![Admin Calendar Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/db808748-2a94-469e-acae-c2f811391981)
+- **Intro Page**:
+  ![Intro Page Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/a03b51ae-3606-4706-b202-cdfb47bb3437)
 
-![City Insights Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/f3096e28-efc9-4058-866f-31fe5dd8bc4a)
+- **Sign Up Page**:
+  ![Sign Up Page Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/e0c819ea-aab0-4ca4-a8e5-96029fc79f67)
 
-![Home Page Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/668aa356-8993-4b1d-8353-eb7b74bd2621)
+- **Home Page**:
+  ![Home Page Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/668aa356-8993-4b1d-8353-eb7b74bd2621)
 
-![Intro Page Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/a03b51ae-3606-4706-b202-cdfb47bb3437)
+- **City Insights** (GRE Qualification Data by City):
+  ![City Insights Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/f3096e28-efc9-4058-866f-31fe5dd8bc4a)
 
-![Score Page Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/b0c6156d-d996-4eb1-872a-d9433bef8b6d)
+- **Score Page**:
+  ![Score Page Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/b0c6156d-d996-4eb1-872a-d9433bef8b6d)
 
-![Sign Up Page Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/e0c819ea-aab0-4ca4-a8e5-96029fc79f67)
-
-
+- **Admin Calendar**:
+  ![Admin Calendar Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/db808748-2a94-469e-acae-c2f811391981)
 
 ## 💻 Full Stack Development
 
