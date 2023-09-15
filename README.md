@@ -10,7 +10,7 @@ The **GRE Score Analyzer** offers a unique capability to estimate a user's GRE s
 
 Here's a sneak peek into our project:
 
-![Preview 1](./website-previews/image1.jpg)
+![Preview 1](./WebPage Preview Images/AdminCalender.png)
 ![Preview 2](./website-previews/image2.jpg)
 ![Preview 3](./website-previews/image3.jpg)
 ![Preview 4](./website-previews/image4.jpg)
