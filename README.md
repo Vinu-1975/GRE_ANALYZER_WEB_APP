@@ -10,13 +10,18 @@ The **GRE Score Analyzer** offers a unique capability to estimate a user's GRE s
 
 Here's a sneak peek into our project:
 
-![Admin Calendar Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/WebPage_Preview_Images/89218383/db808748-2a94-469e-acae-c2f811391981)
+![Admin Calendar Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/db808748-2a94-469e-acae-c2f811391981)
 
-![City Insights Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/db808748-2a94-469e-acae-c2f811391981)
-![Home Page Preview](./Website%20Preview%20Images/HomePage.png)
-![Intro Page Preview](./Website%20Preview%20Images/IntroPage.png)
-![Score Page Preview](./Website%20Preview%20Images/ScorePage.png)
-![Sign Up Page Preview](./Website%20Preview%20Images/SignUpPage.png)
+![City Insights Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/f3096e28-efc9-4058-866f-31fe5dd8bc4a)
+
+![Home Page Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/668aa356-8993-4b1d-8353-eb7b74bd2621)
+
+![Intro Page Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/a03b51ae-3606-4706-b202-cdfb47bb3437)
+
+![Score Page Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/b0c6156d-d996-4eb1-872a-d9433bef8b6d)
+
+![Sign Up Page Preview](https://github.com/Vinu-1975/GRE_ANALYZER_WEB_APP/assets/89218383/e0c819ea-aab0-4ca4-a8e5-96029fc79f67)
+
 
 
 ## 💻 Full Stack Development
