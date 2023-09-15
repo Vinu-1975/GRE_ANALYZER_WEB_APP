@@ -10,12 +10,13 @@ The **GRE Score Analyzer** offers a unique capability to estimate a user's GRE s
 
 Here's a sneak peek into our project:
 
-![Preview 1](./WebPage Preview Images/AdminCalender.png)
-![Preview 2](./website-previews/image2.jpg)
-![Preview 3](./website-previews/image3.jpg)
-![Preview 4](./website-previews/image4.jpg)
-![Preview 5](./website-previews/image5.jpg)
-![Preview 6](./website-previews/image6.jpg)
+![Admin Calendar Preview](./GRE_ANALYZER_WEB_APP/Website%20Preview%20Images/AdminCalender.png)
+![City Insights Preview](./Website%20Preview%20Images/CityInsights.png)
+![Home Page Preview](./Website%20Preview%20Images/HomePage.png)
+![Intro Page Preview](./Website%20Preview%20Images/IntroPage.png)
+![Score Page Preview](./Website%20Preview%20Images/ScorePage.png)
+![Sign Up Page Preview](./Website%20Preview%20Images/SignUpPage.png)
+
 
 ## 💻 Full Stack Development
 
